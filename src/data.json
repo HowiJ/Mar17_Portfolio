@@ -1,0 +1,50 @@
+[
+  {
+    "_id"            : 0,
+    "name"          : "Demos Website",
+    "description"   : "A programming demo website containing all of the coding demos I've done thus far. (For Coding Dojo students use)",
+     "url"          : "http://demos.howardjiang.com",
+     "technologies" : [
+       "Node", "Express", "MongoDB", "React"
+     ],
+     "imgs"         : [
+       "demos1", "demos2", "demos3", "demos4", "demos5", "demos6"
+     ]
+  },
+  {
+    "_id"            : 1,
+    "name"          : "CodeBoard",
+    "description"   : "A Socket.io based online 'whiteboard' application with features such as chatroom and code-sharing. Online Lobbies and offline mode are also available as features.",
+     "url"          : "http://codeboard.vkutuyev.com",
+     "technologies" : [
+       "Node", "Express", "MongoDB", "Html Canvas", "Socket.io"
+     ],
+     "imgs"         : [
+       "codeboard1", "codeboard2", "codeboard3", "codeboard4", "codeboard5", "codeboard6"
+     ]
+  },
+  {
+    "_id"            : 2,
+    "name"          : "NodeSC",
+    "description"   : "Node Server Creator: Essentially a scaffolding tool for the back-end. Generates a fully modularized back-end codebase for an ExpressJS (NodeJS) server with MongoDB integration via Mongoose. All basic CRUD operations are created.",
+     "url"          : "https://www.npmjs.com/package/nodesc",
+     "technologies" : [
+       "Bash", "Unix", "Node", "Express", "MongoDB"
+     ],
+     "imgs"         : [
+       "nodesc1", "nodesc2", "nodesc3"
+     ]
+  },
+  {
+    "_id"            : 3,
+    "name"          : "Letters 4 Animals",
+    "description"   : "Node-Server project applying modern Agile development tools and techniques using the scrum framework. This project was for a non-profit called Letters 4 Animals and was completed in two sprints of two weeks each.",
+     "url"          : "http://letters4animals.org/",
+     "technologies" : [
+       "Node", "Express", "PostgreSQL", "Sequelize", "Angular"
+     ],
+     "imgs"         : [
+       "letters4animals1", "letters4animals2", "letters4animals3", "letters4animals4", "letters4animals5", "letters4animals6"
+     ]
+  }
+]

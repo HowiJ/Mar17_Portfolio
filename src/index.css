@@ -1,0 +1,153 @@
+* {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
+}
+.homeContainer {
+  height: 100vh;
+}
+
+
+
+.home-page {
+  background: url('./assets/img/img/road_ground.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  cursor: pointer;
+}
+
+div.Home div.enter {
+  position: absolute;
+  bottom: 1em;
+  font-size: 2em;
+  left: calc(50vw);
+  color: white;
+}
+div.Home .scrollDown {
+  cursor: pointer;
+}
+div.Home div.title {
+  position: absolute;
+  font-size: 3em;
+  top: calc(50vh - 1.5em);
+  left: calc(50vw - 3em);
+}
+div.Home div.title p {
+  overflow: hidden;
+}
+
+div.flat-page {
+  padding: 5em 0 3em;
+  background: white;
+}
+div.Projects * {
+  overflow-y: hidden;
+}
+div.Projects .projectCard {
+  margin-bottom: 0.5rem;
+  padding: 1em;
+}
+div.Project.projectCard:hover {
+  cursor: pointer;
+  filter: grayscale(100%) blur(2px);
+  transition: filter 300ms linear;
+}
+div.Project .projCard {
+  filter: none;
+  color: deepskyblue;
+}
+
+div.Navbar {
+  padding-top: 0.5em;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: rgba(100, 100, 100, 0.1);
+}
+div.Navbar h1 {
+  overflow-y: hidden;
+}
+div.Navbar ul {
+  list-style-type: none;
+}
+div.Navbar ul li {
+  display: inline-block;
+  margin-left: 1em;
+  padding-top: 1em;
+}
+div.Navbar .menuItem {
+  cursor: pointer;
+}
+div.Navbar li {
+  height: 100%;
+  cursor: pointer;
+}
+li.active {
+  color: deepskyblue;
+  cursor: pointer;
+}
+strong.colorful {
+  color: blue;
+}
+div.Contact * {
+  overflow-y: hidden;
+}
+.contactStubs {
+  text-align: center;
+}
+.contactStubs a {
+  color: lightskyblue;
+}
+.contactStubs a:hover {
+  color: dodgerblue;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+@media only screen and (min-width : 768px) {
+  .Navbar .dropdownMenu {
+    display: none;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .Navbar h1 {
+    font-size: 2rem;
+  }
+  .Navbar ul.mdMenuItems {
+    display: none;
+  }
+  .Navbar .dropdownMenu {
+    display: inherit;
+  }
+  .Navbar .menuRowItems {
+    text-align:right;
+  }
+  .Navbar {
+    z-index: 2;
+  }
+  /*.dropdownMenuItemsRow {
+    position: fixed;
+    background: black;
+    top: 10em;
+    left: 10em;
+    z-index: 100;
+  }*/
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
