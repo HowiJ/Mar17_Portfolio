@@ -31,11 +31,12 @@ import letters4animals6 from './letters4animals/letters4animals6.png';
 import para1 from './img/vast_pano_o.jpg';
 import para2 from './img/glacier_pano_o.jpg';
 import para3 from './img/sun_pano_optimized.jpg';
+import para4 from './img/waterfall_pano_o.jpg';
 
 const imgs = {
   nopic,
 
-  para1, para2, para3,
+  para1, para2, para3, para4,
 
   demos1, demos2, demos3, demos4, demos5, demos6,
   codeboard1, codeboard2, codeboard3, codeboard4, codeboard5, codeboard6,

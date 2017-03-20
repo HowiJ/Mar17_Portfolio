@@ -7,6 +7,7 @@ import Home from './components/home/Home';
 import About from './components/about/About'; 
 import Projects from './components/projects/Projects'; 
 import Contact from './components/contact/Contact'; 
+import Testimonials from './components/testimonials/Testimonials';
 import './assets/css/animate.css';
 
 import './App.css';
@@ -26,13 +27,16 @@ class App extends Component {
   handleScroll () {
     const about = document.getElementsByClassName('About')[0];
     const projects = document.getElementsByClassName('Projects')[0];
+    const testimonials = document.getElementsByClassName('Testimonials')[0];
     // const contact = document.getElementsByClassName('Contact')[0];
     const homeHeight = document.getElementsByClassName('Home')[0].clientHeight;
     const navbar     = document.getElementsByClassName('Navbar')[0];
 
     //window.scrollY >= contact.offsetTop+homeHeight
-    if (window.scrollY >= projects.offsetTop+homeHeight+200+projects.clientHeight) {
+    if (window.scrollY >= testimonials.offsetTop+homeHeight+200+testimonials.clientHeight) {
       this.setState({ active: 'contact' });
+    } else if (window.scrollY >= testimonials.offsetTop+homeHeight) {
+      this.setState({ active: 'testimonials' });
     } else if (window.scrollY >= projects.offsetTop+homeHeight) {
       this.setState({ active: 'projects' });
     } else if (window.scrollY >= about.offsetTop+homeHeight) {
@@ -77,8 +81,10 @@ class App extends Component {
             <Parallax img='para3' height="400"/>
             <Projects />
             <Parallax img='para2'height="400" />
-            <Contact />
+            <Testimonials />
             <Parallax img='para1' height="800"/>
+            <Contact />
+            <Parallax img='para4' height="800"/>
           </Col>
         </Row>
       </div>

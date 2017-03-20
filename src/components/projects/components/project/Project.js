@@ -20,7 +20,7 @@ const Project = ({data}) => {
     'position': 'absolute'
   }
   return (
-    <Col md={4} sm={12}>
+    <Col md={4}>
       <a href={data.url} target="_BLANK">
         <div className="Project projectCard">
           <Row>

@@ -14,8 +14,7 @@ const Projects = () => {
   return (
     <div className="Projects flat-page">
       <Container>
-        {window.innerHeight > 767 && <Row>{mapped}</Row>}
-        {window.innerHeight <= 767 && <div>{mapped}</div>}
+        <Row>{mapped}</Row>
       </Container>
     </div>
   );

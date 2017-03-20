@@ -88,6 +88,9 @@ class Navbar extends React.Component {
                 <li className={ 'menuItem '&&this.props.active==='projects'?'active':'' } onClick={() => { this.handleScroll('Projects') } }>
                   Projects
                 </li>
+                <li className={ 'menuItem '&&this.props.active==='testimonials'?'active':'' } onClick={() => { this.handleScroll('Testimonials') } }>
+                  Words
+                </li>
                 <li className={ 'menuItem '&&this.props.active==='contact'?'active':'' } onClick={() => { this.handleScroll('Contact') } }>
                   Contact
                 </li>
@@ -111,6 +114,9 @@ class Navbar extends React.Component {
                   </li>
                   <li className={ 'menuItem '&&this.props.active==='projects'?'active':'' } onClick={() => { this.handleScroll('Projects') } }>
                     Projects
+                  </li>
+                  <li className={ 'menuItem '&&this.props.active==='testimonials'?'active':'' } onClick={() => { this.handleScroll('Testimonials') } }>
+                    Recommendations
                   </li>
                   <li className={ 'menuItem '&&this.props.active==='contact'?'active':'' } onClick={() => { this.handleScroll('Contact') } }>
                     Contact

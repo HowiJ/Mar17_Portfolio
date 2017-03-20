@@ -108,6 +108,21 @@ div.Contact * {
 .contactStubs a:hover {
   color: dodgerblue;
 }
+.Testimonials * {
+  text-align: center;
+}
+.Recommendation .message {
+  font-size: 1em;
+}
+.Recommendation .name {
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 1em;
+}
+.Recommendation .title {
+  font-size: 1em;
+  font-style: italic;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 }
